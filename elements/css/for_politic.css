@@ -1,0 +1,62 @@
+html, body{
+ margin: 0px;
+ padding: 0px;
+ height:100%;
+ font-family: "Roboto Condensed";
+ align-content: center;
+}
+
+.polit_body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.polit_content{
+  margin: 40px;
+  max-width: 1200px;
+  text-align: justify;
+}
+
+header{
+  font-size: 43px;
+  text-align: left;
+}
+
+h1{
+  font-size: 30px;
+}
+
+p{
+  font-size: 17px;
+  font-family: sans-serif;
+}
+
+a div{
+  text-align: center;
+
+  color: #FFFFFF;
+  background-color: #40E0D0;
+  padding: 30px;
+  width: 270px;
+  border-radius: 15px;
+}
+a{
+  text-decoration: none;
+}
+
+@media (max-width:1200px) {
+    .polit_content{max-width: 700px;}
+}
+
+@media (max-width:700px) {
+    .polit_content{
+      max-width: none;
+    }
+    a div{
+      height: 100px;
+      width:none;
+      font-size: 20px;
+    }
+}

@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: politika.html
+Host: https://osago-online-rf.ru
+Sitemap: https://osago-online-rf.ru/sitemap.xml

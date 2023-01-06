@@ -1,0 +1,472 @@
+html{
+  scroll-behavior: smooth;
+}
+
+html, body{
+ margin: 0px;
+ padding: 0px;
+ height:100%;
+ font-family: "Roboto Condensed";
+ align-content: center;
+}
+.present{
+  height: 720px;
+  padding: 100px 40px 40px 40px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #FFFFFF url("devushka.png") no-repeat 85% center;
+}
+.prem{
+  font-family: "Roboto Condensed";
+  align-self: flex-start;
+  margin: 10px;
+  opacity: 1;
+  padding-left: 15%;
+}
+
+@keyframes opacity{
+  0%{
+    opacity: 0;
+    padding-left: 0%;
+  }
+  100%{
+    opacity: 1;
+    padding-left: 15%;
+}
+}
+
+h1{
+  color: #00CED1;
+  font-size: 40px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+h1 b{
+  font-size: 200px;
+}
+.hello{
+  align-items: center;
+}
+p{
+  font-size: 40px;
+  margin: 1px;
+}
+b{font-size: 60px;}
+h4{
+  color: #A9A9A9;
+}
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  padding: 15px;
+}
+button{
+  margin: 10px;
+  padding: 25px;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #40E0D0;
+  border-radius: 50px;
+  border-color:#D3D3D3;
+  border: 5px;
+}
+button a{
+  color:#000000;
+  text-decoration: none;
+}
+
+.plank{
+display: flex;
+box-shadow: 0px 0px 35px -20px #000000;
+border-radius: 30px;
+padding: 10px;
+background-color: #FFFFFF;
+}
+
+.element{
+  margin: 10px;
+  display: flex;
+}
+
+.menu{
+  width: 100%;
+  position: fixed;
+  top:0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 30px -26px #000000;
+
+}
+.menu_buttons{
+ list-style-type: none;
+ display: flex;
+ justify-content: space-around;
+ padding: 5px;
+}
+.menu_buttons li{
+  margin-left: 50px;
+}
+
+.information{
+  margin-top: 110px;
+}
+li a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.double_card{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 30px;
+}
+.card{
+  margin: 30px;
+  width: 600px;
+}
+.card img{
+  margin: 15px;
+}
+.card h4{
+  margin: 10px;
+}
+.card h3{
+  margin-top: 20px;
+}
+
+.info-two{
+  margin-top: 110px;
+}
+
+.three_section{
+    display: grid;
+    grid-template-columns: 28% 44% 28%;
+    margin: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 30px;
+
+}
+.this_section{
+  height: 700px;
+}
+.left, .right{
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+.left{
+  text-align: left;
+}
+.right{
+  text-align: right;
+}
+.center{
+  text-align: center;
+}
+.this_section center{
+  align-content: center;
+}
+.this_section img{
+  transform: translate(10px);
+}
+
+.pre-partners{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.partners{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+
+  padding-right: 5%;
+}
+.devushka{
+  width: 706px;
+  height: 706px;
+  background: #FFFFFF url("devushka-2.png") no-repeat 10% center;
+}
+.card_part{
+  padding: 50px;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 224px;
+  height: 40px;
+
+}
+
+.product{
+  margin-top: 70px;
+
+}
+
+.stolbs{
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.for {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  margin-top: 30px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 35px -20px #000000;
+}
+
+.company, .client{
+  width: 500px;
+}
+
+.for p{
+  background-color: #ffffff;
+  margin-bottom: 10px;
+
+}
+.company .spisok, .client .spisok{
+ box-shadow: 0px 0px 70px -40px #000000 inset;
+ width: 400px;
+ padding-left: 50px;
+ padding-right: 50px;
+ margin-bottom: 20px;
+ margin-top: 20px
+}
+
+h3 a{
+  text-decoration: none;
+
+  width: 100%;
+  color: #00CED1;
+}
+
+nav div{
+  display: none;
+  opacity: 1;
+  transition: 0.5s;
+  margin-bottom: 5px;
+}
+
+._active{
+  display: block;
+}
+
+.pre-questions{
+  margin-top: 70px;
+}
+.questions{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+ .question{
+  width: 900px;
+}
+.question .spisok{
+  box-shadow: 0px 0px 70px -40px #000000 inset;
+  width: 800px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 20px;
+  margin-top: 20px
+}
+
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px;
+}
+
+.popup{
+  position: fixed;
+  top:0;
+  left:0;
+  background-color: rgba(0,0,0,0.8);
+  width: 100%;
+  height: 100%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.active_pop{
+  display: flex;
+}
+
+.popup_body{
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 30px;
+  position: absolute;
+}
+.popup_close{
+  align-self: flex-start;
+}
+.popup_close svg{
+    color: #000000;
+}
+.popup_content{
+    margin: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.popup_content h3{
+  text-align: left;
+  font-size: 20px;
+}
+
+.form_popup{
+  width: 440px;
+}
+
+.form_item{
+  margin: 20px 0px 20px 0px;
+}
+.form_label{
+  display: block;
+  font-size: 16px;
+  margin: 0px 0px 10px 0px;
+}
+.form_input{
+ margin: 0px 10px 0px 10px;
+ width: 360px;
+ font-size: 18px;
+ padding: 10px;
+
+}
+
+input._error{
+
+  box-shadow: 0px 0px 10px 1px red;
+}
+
+
+button{
+  cursor: pointer;
+}
+
+.loading_body{
+  visibility: hidden;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  background-color: rgba(100, 100, 100, 0.7);
+}
+.loading{
+  visibility: hidden;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+
+}
+.loading::after{
+  content: "";
+  width: 50px;
+  height: 50px;
+  border: 10px solid #FFFFFF;
+  border-top-color: #40E0D0;
+  border-right-color: #40E0D0;
+  border-radius: 50%;
+  animation: loading 1s ease infinite;
+}
+._sending{
+  visibility: visible;
+}
+
+@keyframes loading {
+  to{
+    transform: rotate(1turn);
+  }
+}
+
+.form_button{
+width: 380px;
+font-size: 18px;
+font-weight: 700;
+margin: 20px;
+cursor: pointer;
+top:0;
+}
+.form_button:hover{
+  background-color: #31b3a6;
+  border: #40E0D0 5px;
+}
+.form_button:active{
+  top: 3px;
+}
+
+.buster{
+  visibility: visible;
+  opacity: 1;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  background-color: #FFF;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 35px -20px #000000;
+  color: #40E0D0;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+._invisible{
+  visibility: hidden;
+  opacity: 0;
+}
+@media (max-width:1500px) {
+  .this_section img{
+    transform: scale(0.8) translate(-100px);
+  }
+  .buster svg{
+    width: 50px;
+    height: 50px;
+  }
+}
+@media (max-width:1213px) {
+   .this_section img{
+     transform: scale(0.5) translate(-250px);
+   }
+   .buster{
+     padding: 10px;
+   }
+}
+@media (max-width:700px) {
+  .present{
+    background-image: none;
+  }
+}
